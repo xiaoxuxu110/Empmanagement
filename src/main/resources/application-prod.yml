@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://114.132.158.63:3306/empmanagement'
+    username: xzh
+    password: xzh
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
